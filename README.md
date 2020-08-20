@@ -1,5 +1,5 @@
 # avs2-avs3-video-samples
-AVS2/IEEE 1857.4 and AVS3/IEEE 1857.10 encoded video samples transcoded from https://github.com/Matroska-Org/matroska-test-files
+AVS2/IEEE 1857.4 and AVS3/IEEE 1857.10 encoded video samples.
 
 test1_avs2.mkv<br>
   Basic file. It contains AVS2 video (854x480), MP3 audio. The sample comes from the Big Buck Bunny open project.
