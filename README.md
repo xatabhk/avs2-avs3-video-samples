@@ -12,3 +12,24 @@ test5_avs3.mkv<br>
 
 Beijing 2022 winter olympics emblem_avs2.mkv<br>
   Basic file. It contains AVS2 video (1920x1080), and stereo AAC audio. Official video of Beijing 2022 Winter Olympic Games emblem.
+  
+# Encoder used for generating samples videos:
+Ffmpeg: https://github.com/xatabhk/FFmpeg-avs2-avs3/releases/tag/n4.4-dev-avs3<br>
+Command line examples for encoding AVS2 and AVS3 videos：<br>
+
+```
+ffmpeg -i xxx.mp4 -vcodec avs2 -acodec copy xxx_AVS2.mkv
+ffmpeg -i xxx.mkv -vcodec avs3 -acodec copy xxx_AVS3.mkv
+```
+
+# Video players with CAVS/AVS2/AVS3 enabled:
+1.	Ffmpeg: https://github.com/xatabhk/FFmpeg-avs2-avs3/releases/tag/n4.4-dev-avs3<br>
+Commmand line examples for playing videos:
+```
+ffplay xxx_AVS2.mkv
+ffplay xxx_AVS3.mkv
+```
+2.	Mpc-hc: https://gitee.com/zhengtianbo/cavs-avs2-avs3_decoder_added_to_mpc_hc/releases
+3.	Vlc3: https://github.com/xatabhk/vlc-3.0-avs2-avs3/releases/tag/v3.0-avs2-avs3-200830
+4.	Vlc4: https://github.com/xatabhk/vlc-avs2-avs3/releases/tag/v4.0-avs2-avs3-200830
+
