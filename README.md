@@ -1,5 +1,5 @@
-# avs2 video samples
-AVS2/IEEE 1857.4 and AVS3/IEEE 1857.10 encoded video samples.
+# avs2(IEEE.1857-4) video samples
+AVS2/IEEE.1857-4 encoded video samples.
 
 test1_avs2.mkv<br>
   Basic file. It contains AVS2 video (854x480), MP3 audio. The sample comes from the Big Buck Bunny open project.
@@ -10,7 +10,9 @@ test5_avs2.mkv<br>
 Beijing 2022 winter olympics emblem_avs2.mkv<br>
   Basic file. It contains AVS2 video (1920x1080), and stereo AAC audio. Official video of Beijing 2022 Winter Olympic Games emblem.
 
-# avs3 video samples
+# avs3(IEEE.1857-10) video samples
+AVS3/IEEE.1857-10 encoded video samples.
+
 test5_avs3.mkv<br>
   Multiple audio/subtitles. The sample contains AVS3 video (1024x576 pixels), and stereo AAC and commentary in AAC+ (using SBR). The source material is taken from the Elephant Dreams video project
 
